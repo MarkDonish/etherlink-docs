@@ -44,6 +44,8 @@ If you don't want to deploy and manage your own EVM node<!--TXN-->, or if you re
 - SwiftNodes: See https://swiftnodes.io/etherlink-rpc
 - Zeeve: See https://www.zeeve.io/blockchain-protocols/deploy-etherlink-node/
 
+The [Chain.Love](https://etherlink.chain.love/toolbox/apis) directory lists plan details for some of these providers, including Ankr's request limits and the connection protocols supported by Chainstack's dedicated plan.
+
 You may compare the latency of these endpoints based on live benchmarks (p50/p90/p99, 3 regions, updated every 60 s): [OpenChainBench Etherlink RPC](https://openchainbench.com/benchmarks/etherlink-rpc)
 
 To spread requests across several of these providers, you can run [eRPC](https://github.com/erpc/erpc), an open-source RPC proxy that you host yourself. It adds failover between providers, retries, a response cache, and rate limiting. For setup, see the [eRPC documentation](https://docs.erpc.cloud).
